@@ -7,6 +7,8 @@
 **License**: Public Domain (CC0 1.0 Universal)  
 **Repository**: https://github.com/EdgeOfAssembly/Sci-Hub-Linker
 
+Learn more about the paywall issues researchers face in [The Paywall Paradox](paywall_paradox.md).
+
 ## Features
 - Automatically converts DOI numbers into hyperlinks to a user-defined URL (default: `https://sci-hub.se`).
 - Supports multiple DOI formats: `doi:10.xxx`, `DOI 10.xxx`, `https://doi.org/10.xxx`, `http://dx.doi.org/10.xxx`.
