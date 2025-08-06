@@ -1,0 +1,27 @@
+{
+    "manifest_version": 3,
+    "name": "Sci-Hub Linker",
+    "version": "1.0",
+    "description": "Converts DOI numbers on web pages into Sci-Hub hyperlinks",
+    "permissions": ["storage", "contextMenus", "tabs", "notifications"],
+    "action": {
+        "default_icon": {
+            "48": "icons/icon48.png"
+        },
+        "default_title": "Sci-Hub Linker"
+    },
+    "background": {
+        "service_worker": "background.js"
+    },
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["content.js"],
+            "run_at": "document_end"
+        }
+    ],
+    "options_ui": {
+        "page": "options.html",
+        "open_in_tab": true
+    }
+}
