@@ -53,7 +53,7 @@ Sci-Hub Linker is distributed as an unpacked Chrome extension. Follow these step
   - Right-click the toolbar icon and select "Sci-Hub Linker" → "About" to open the about page with author and license details.
 - **DOI Linking**:
   - When enabled, DOIs on web pages (e.g., `DOI 10.3386/w30133`) become clickable links to the configured URL.
-  - Test on pages like [this example](https://sportsmedicine-open.springeropen.com/articles/10.1186/s40798-025-00848-3#citeas).
+  - Test on pages like [this example](https://www.sciencedirect.com/science/article/pii/S0360131518300812)
 
 ## Reporting Issues
 - Open an issue on this repository: https://github.com/EdgeOfAssembly/Sci-Hub-Linker/issues.
