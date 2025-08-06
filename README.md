@@ -26,7 +26,8 @@ Sci-Hub Linker is distributed as an unpacked Chrome extension. Follow these step
 
 ### Steps
 1. **Download or Clone the Repository**:
-   - Download the ZIP file from [this repository](https://github.com/EdgeOfAssembly/Sci-Hub-Linker) by clicking "Code" → "Download ZIP" and extract it to a folder (e.g., `Sci-Hub-Linker`).
+   - Download the ZIP file from [this repository](https://github.com/EdgeOfAssembly/Sci-Hub-Linker/releases) 
+     and extract it to a folder (e.g., `Sci-Hub-Linker`).
    - Alternatively, clone the repository:
      ```bash
      git clone https://github.com/EdgeOfAssembly/Sci-Hub-Linker.git
